@@ -1,0 +1,11 @@
+# Run migration
+npx sequelize-cli db:migrate
+
+# Undo last migration
+npx sequelize-cli db:migrate:undo
+
+# Undo all migrations
+npx sequelize-cli db:migrate:undo:all
+
+# Check migration status
+npx sequelize-cli db:migrate:status
